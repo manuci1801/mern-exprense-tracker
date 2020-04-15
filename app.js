@@ -5,7 +5,7 @@ const path = require('path')
 
 const transactionRoute = require('./routes/transactions')
 
-dotenv.config({ path: './config/.env' })
+dotenv.config({ path: '.env' })
 
 // connect DB
 require('./config/db')()
